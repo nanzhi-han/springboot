@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.web.servlet.ServletComponentScan;
 
 @SpringBootApplication
-@ServletComponentScan(basePackages = "com.springboot.springboot.servlet")//servlet注册
+//@ServletComponentScan(basePackages = "com.springboot.springboot.servlet")//servlet注册
 public class SpringbootApplication {
 
     public static void main(String[] args) {
