@@ -19,10 +19,10 @@
     </properties>
 
     <dependencies>
-        <!--<dependency>
+        <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>-->
+        </dependency>
 
         <!--切换其他servlet容器，tomcat切换为jetty-->
         <!--<dependency>
@@ -42,10 +42,10 @@
 -->
 
         <!--替换servlet容器（webflux低于传统文本容器，注释掉web,2者选用一个）-->
-        <dependency>
+        <!--<dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-webflux</artifactId>
-        </dependency>
+        </dependency>-->
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
